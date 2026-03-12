@@ -1,6 +1,6 @@
 <!--Os principais tipos de dados no PHP são:
 
-    integer : Números inteiros, positivos ou negativos, sem casas decimais
+    integer : Números inteiros, positivos ou negativos, sem casas decimais-->
 
     float: Números reais, também conhecidos como "doubles", com casas decimais
 
@@ -43,12 +43,12 @@ $idade = 18;
 if ($idade == true) {
     echo "<br>" . $idade;
 }
-?>
+
 // ARRAYS
 
 // ARRAYS INDEXADAS
 // São arrays em que os elementos são armazenados com índices numéricos automáticos, começando do zero
-<?php
+
 $nomes = ["Joel T Cunha", 57, "Rua Jamelão", "202", "Apto 102"];
 //          [0]          [1]        [2]       [3]     [4]
 echo "<br>Nomes: " . $nomes[4];
@@ -91,6 +91,9 @@ echo "<br>-------------------------------------------<br>";
   echo $turma[0]["nome"] . "<br>"; // Ana
   echo $turma[1]["nota"] . "<br>"; // 9.2
 
+foreach ($turma as $curso => $valor) {
+    echo "Nome: ", $valor . " - " . "nota: ", $valor . "<br>";
+}
 
 // Exercício prático
 

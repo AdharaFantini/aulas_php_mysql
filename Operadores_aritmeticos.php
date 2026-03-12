@@ -26,7 +26,7 @@ for ($i = 0; $i<=20; $i++){
 // > true se maior
 // <= true se menor igual
 // >= true se maior igual
-// === true se' iguais em valor e tipo
+// === true se iguais em valor e tipo
 // !== true se diferentes em valor ou tipo
 
 $a = 10;
