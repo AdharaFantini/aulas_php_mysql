@@ -120,5 +120,5 @@ echo substr($text_8, 5, -3) . "<br>";
 
 //ESCAPE CHARACTERS
 // Para inserir caracteres que são ilegais em uma string use um caracter de fuga
-$text_9 = "And could "never" tears us apart";
+$text_9 = "And could \"never\" tears us apart";
 echo $text_9;
