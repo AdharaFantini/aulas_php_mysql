@@ -14,6 +14,12 @@ echo "<br>----------------------------------------------------------------------
 
 $saldoInicial = 100;
 if ($saldoInicial > 0) {
-    echo "Saldo inicial:" . $saldoInicial . "<br>";}
+    echo "Saldo inicial:" . $saldoInicial;}
+echo "<br>------------------------------------------------------------------------------------------------<br>";
+
+echo "Digite 1 para fazer depósito, 2 para fazer saque, 3 para empréstimo parcelado, 4 para ver o saldo atual";
+
 
 ?>
+
+
