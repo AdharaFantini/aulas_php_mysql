@@ -7,3 +7,13 @@
 // - Pode fazer fazer empréstimo parcelo com juros simples de 20% ao ano
 // - Pode ver o saldo
 // - Tem que sair da conta corrente
+
+$nome = "John Doe";
+echo "Nome do cliente: $nome";
+echo "<br>------------------------------------------------------------------------------------------------<br>";
+
+$saldoInicial = 100;
+if ($saldoInicial > 0) {
+    echo "Saldo inicial:" . $saldoInicial . "<br>";}
+
+?>
