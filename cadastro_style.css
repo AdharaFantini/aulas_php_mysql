@@ -4,4 +4,44 @@ body {
 
 .wrapper {
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: "Lucida Console";
+}
+form {
+    background-color: aquamarine;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+}
+
+button{
+    font-family: "Cambria Math";
+    font-size: larger;
+    background-color: midnightblue;
+    color: #00ffff;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: #3535dc;
+    color: #00ffdb;
+    border-radius: 8px;
+}
+
+h1 {
+    justify-self: center;
+    font-family: "Lucida Console";
+    color: #00ffff;
+    background-color: #191970;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
