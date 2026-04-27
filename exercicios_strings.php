@@ -39,5 +39,67 @@
 //  10. **Capitalizar palavras**
 //  Receba uma frase e transforme a primeira letra de cada palavra em maiúscula usando `ucwords()`.
 
+echo '<br>_________________________________________1<br>';
+echo '<br>';
 
+echo strlen("Meu final de semana foi ficar em casa descansando e vendo filmes");
 
+echo '<br>';
+echo '<br>_________________________________________2<br>';
+echo '<br>';
+
+echo (strtoupper("Meu final de semana foi ficar em casa descansando e vendo filmes"));
+echo '<br>';
+echo (strtolower("Meu final de semana foi ficar em casa descansando e vendo filmes"));
+
+echo '<br>';
+echo '<br>_________________________________________3<br>';
+echo '<br>';
+
+echo strrev("Meu final de semana foi ficar em casa descansando e vendo filmes");
+
+echo '<br>';
+echo '<br>_________________________________________4<br>';
+echo '<br>';
+
+echo strpos("Meu final de semana foi ficar em casa descansando e vendo filmes", "casa");
+
+echo '<br>';
+echo '<br>_________________________________________5<br>';
+echo '<br>';
+
+echo str_replace("Meu final de semana foi ficar em casa descansando e vendo filmes", "séries", "filmes");
+
+echo '<br>';
+echo '<br>_________________________________________6<br>';
+echo '<br>';
+
+echo trim("Meu final  de semana foi   ficar em casa descansando e    vendo filmes");
+
+echo '<br>';
+echo '<br>_________________________________________7<br>';
+echo '<br>';
+
+$text = "Meu final de semana foi ficar em casa descansando e vendo filmes";
+$y = explode("Meu final de semana foi ficar em casa descansando e vendo filmes", $text);
+
+print_r($y);
+
+echo '<br>';
+echo '<br>_________________________________________8<br>';
+echo '<br>';
+
+implode("Meu final de semana foi ficar em casa descansando e vendo filmes", $text);
+
+print_r($y);
+echo '<br>';
+echo '<br>_________________________________________9<br>';
+echo '<br>';
+
+echo str_word_count("Meu final de semana foi ficar em casa descansando e vendo filmes");
+
+echo '<br>';
+echo '<br>_________________________________________10<br>';
+echo '<br>';
+
+echo ucwords("Meu final de semana foi ficar em casa descansando e vendo filmes");
