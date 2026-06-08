@@ -197,14 +197,13 @@ var_dump($result);
 echo "<br><br>";
 echo "<br><br>";
 echo "Tipos de Mariposas<br>";
-$moth = array("Caveira", "Atlas", "Poodle");
+$moth = array("Caveira", "Atlas", "Poodle", "Imperador");
 var_dump($moth);
 echo "<br>";
 $newmoth = "Imperador";
-array_splice($moth, 1, 0, $newmoth);
+array_splice($moth, 1, 2);
 var_dump($moth);
 
-echo "</pre>";
 echo "<br><br>";
 echo "<br><br>";
 
@@ -272,5 +271,5 @@ echo "<br>";
  foreach($age as $x => $y){
  echo "Chave=" . $x . ", Valor=" . $y;
   }
- 
+
 
