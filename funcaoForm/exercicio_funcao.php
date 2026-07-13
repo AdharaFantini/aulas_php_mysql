@@ -70,3 +70,6 @@ function converterTemp($numero, $unidade1, $unidade2)
 
 }
 converterTemp(0, "C", "F");
+
+?>
+
