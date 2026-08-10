@@ -99,6 +99,8 @@ function test_input($data) {
         E-mail: <input type="text" name="email" value="<?php echo $email; ?>"><br>
         <span class="error">* <?php echo $emailErr;?></span>
         <br><br>
+        Telefone: <input type="text" name="phone" value="<?php echo $phone; ?>"><br>
+        <br><br>
         Website: <input type="text" name="website" value="<?php echo $website; ?>"><br>
         <span class="error"><?php echo $websiteErr;?></span>
         <br><br>
