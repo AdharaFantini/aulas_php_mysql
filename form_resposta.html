@@ -8,7 +8,7 @@ $genero = $_REQUEST["genero"];
 $valNome = "/^[a-zA-Z]([a-zA-Z])+?/";
 $valEmail = "";
 $valTelefone = "";
-$valURL = "";
+$valURL = "/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i"";
 $valGenero = "";
 ?>
 <!DOCTYPE html>
@@ -17,11 +17,12 @@ $valGenero = "";
     <title>Aula regex</title>
 </head>
     <body>
+
 <?php
 echo $nome . "<br>";
 echo $email . "<br>";
 echo $telefone . "<br>";
-
 ?>
+
 </body>
 </html>
