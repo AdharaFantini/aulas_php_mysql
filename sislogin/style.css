@@ -1,0 +1,166 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1254aa, #e4d7c8);
+    min-height: 100vh;
+}
+
+/* CONTAINER */
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+/* CAIXA DO FORMULÁRIO */
+
+.form-box {
+    background: linear-gradient(135deg, #717ad3, #e4d7c8);
+    width: 100%;
+    max-width: 430px;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.10);
+}
+
+/* TÍTULOS */
+
+.form-box h1 {
+    text-align: center;
+    color: #2a0893;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #162242;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* CAMPOS */
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2d2e51;
+    margin-bottom: 8px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+    background: #fafafa;
+}
+
+.campo input:focus {
+    border-color: #3e25ae;
+    background: white;
+    box-shadow: 0 0 0 3px rgb(0 24 113 / 0, 39);
+}
+
+/* ESQUECEU A SENHA */
+
+.esqueceu {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.esqueceu a {
+    color: #2a146e;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.esqueceu a:hover {
+    text-decoration: underline;
+}
+
+/* BOTÕES */
+
+.btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #103a95;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0b307e;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgb(162 210 255);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* LINKS INFERIORES */
+
+.rodape {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #373957;
+}
+
+.rodape a {
+    color: #342a93;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 480px) {
+
+    .form-box {
+        padding: 25px 20px;
+        border-radius: 12px;
+    }
+
+    .form-box h1 {
+        font-size: 24px;
+    }
+
+    .campo input {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+}
